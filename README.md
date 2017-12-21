@@ -4,6 +4,8 @@ This is to reproduce the issue reported at [New function added in 7.5.0.199 does
 > 
 > Also, this function probably not work under CLI, which is not documented [here](https://docs.newrelic.com/docs/agents/php-agent/php-agent-api/newrelic_record_datastore_segment).
 
+__NOTE: the issue has been resolved in latest version of the New Relic PHP Agent ([7.6.0.201](https://docs.newrelic.com/docs/release-notes/agent-release-notes/php-release-notes/php-agent-760201)).__ You won't be able to reproduce the issue any more with the image built from this project.
+
 # How To Reproduce It
 
 ```bash
